@@ -1,0 +1,17 @@
+To run project:
+
+1. Download SQL Server 2019 Express (https://www.microsoft.com/pl-pl/sql-server/sql-server-downloads)
+
+2. In SQLServer installation Center install:
+- "New SQL Server stand-alone installation or ad features to existing installation"
+- "Install SQL Management Tools"  (Write down admin user name and password)
+
+3. Run Microsoft SQL Management Studio
+- Server type: Database-Engine
+- choose Server name
+- write login and password
+- click connect
+
+If some issues go to Server Configuration Manager
+- Sql Server Services: check state of SQL State
+- Sql Native Client: Client protocols -> check if TCP/IP is enabled
